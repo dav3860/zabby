@@ -175,6 +175,12 @@ module Zabby
     add_zmethods :get
   end
 
+  class Service
+    include ZClass
+    primary_key :serviceid
+    add_zmethods :create, :delete, :get, :update, :adddependencies, :addtimes, :deletedependencies, :deletetimes, :getsla, :isreadable, :iswritable
+  end
+
   class Screen
     include ZClass
     primary_key :screenid

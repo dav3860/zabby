@@ -2,6 +2,10 @@
 
 List of visible changes:
 
+== v0.1.3 (2016/05/12)
+
+* Added Service methods
+
 == v0.1.2 (2012/03/27)
 
 * Older Zabbix 1.8.x used "user.authenticate" instead of "user.login", we must try both methods.
